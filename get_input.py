@@ -4,7 +4,13 @@ import subprocess
 import sys
 # import requests
 from datetime import datetime
-from decouple import config #use this to install package: pip install python-decouple
+# from decouple import config #use this to install package: pip install python-decouple
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
+
 # Usage: ./get_input.py > 1.in
 # You must fill in SESSION following the instructions below.
 # DO NOT run this in a loop, just once.
@@ -18,13 +24,13 @@ from decouple import config #use this to install package: pip install python-dec
 
 
 # SESSION = ${{ secrets.AOC_SESSION }} # for github actions '<FILL_ME_IN>'
-
+# Set up session variable
 try:
-    SESSION = config('SESSION')  #import from env
+    SESSION = os.getenv("SESSION")  #import from env
 except:
     SESSION ='<FILL_ME_IN>'
 
-useragent = 'https://github.com/MuhammadSaadSiddique/AdventOfCode/blob/main/get_input.py by muhammadsaad2387@gmail.com'
+useragent = 'https://github.com/Saqlain143/Advent-of-Code/blob/main/get_input.py by saqlainabid143@gmail.com'
 parser = argparse.ArgumentParser(description='Read input')
 time =datetime.now()
 parser.add_argument('--year', type=int, default=2023)
@@ -37,3 +43,8 @@ output = subprocess.check_output(cmd, shell=True)
 output = output.decode('utf-8')
 print(output, end='')
 print('\n'.join(output.split('\n')[:10]), file=sys.stderr)
+
+
+# To get the input, run:
+
+# python3 get_input.py --day 1 > input.txt
