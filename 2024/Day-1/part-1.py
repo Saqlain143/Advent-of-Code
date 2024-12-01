@@ -14,7 +14,7 @@ def calculate_total_distance(left_list, right_list):
 
 def main():
     # Read the input from 'input.txt' file
-    with open('/Users/abidshakir/Advent-of-Code/2024/Day-1/input-1.txt', 'r') as file:
+    with open('/Users/abidshakir/Advent-of-Code/2024/Day-1/input.txt', 'r') as file:
         lines = file.readlines()
 
     # Separate the two lists

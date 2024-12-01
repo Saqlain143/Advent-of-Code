@@ -15,7 +15,7 @@ def calculate_similarity_score(left_list, right_list):
 
 def main():
     # Read the input from 'input.txt' file
-    with open('/Users/abidshakir/Advent-of-Code/2024/Day-1/input-2.txt', 'r') as file:
+    with open('/Users/abidshakir/Advent-of-Code/2024/Day-1/input.txt', 'r') as file:
         lines = file.readlines()
 
     # Separate the two lists
