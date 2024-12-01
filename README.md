@@ -1,6 +1,4 @@
-<img src="/Users/abidshakir/Advent-of-Code/Advent_of_Code_2024.jpg">
-
-<br>
+<img src="https://github.com/Saqlain143/Advent-of-Code/blob/main/Advent_of_Code_2024.jpg">
 
 # Advent-of-Code🎄<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="32">
 
@@ -58,4 +56,3 @@ Day       Time    Rank  Score       Time   Rank  Score
   
 
 ```
-
