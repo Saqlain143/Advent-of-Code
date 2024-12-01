@@ -1,4 +1,4 @@
-<img src="/Users/abidshakir/Advent-of-Code/Advent_of_Code_2024.webp" width="1750">
+<img src="/Users/abidshakir/Advent-of-Code/Advent_of_Code_2024.jpg" width="1750">
 
 <br>
 
