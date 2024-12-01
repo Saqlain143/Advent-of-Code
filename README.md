@@ -1,4 +1,8 @@
-# Advent-of-Code🎄<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="32">
+<img src="/Users/abidshakir/Advent-of-Code/Advent_of_Code_2024.webp" width="1750">
+
+<br>
+
+<h1 style="text-align: center;">Advent-of-Code🎄<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="32"> </h1>
 
 I have participated every year in Advent of Code since 2023. It is a great journey to solve new problems every day whether it is LeetCode or the advent of code. 
 ## Get Semi Auto input daily from Advent of Code
