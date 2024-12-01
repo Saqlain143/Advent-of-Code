@@ -33,7 +33,7 @@ except:
 useragent = 'https://github.com/Saqlain143/Advent-of-Code/blob/main/get_input.py by saqlainabid143@gmail.com'
 parser = argparse.ArgumentParser(description='Read input')
 time =datetime.now()
-parser.add_argument('--year', type=int, default=2023)
+parser.add_argument('--year', type=int, default=2024)
 parser.add_argument('--day', type=int, default=1)
 args = parser.parse_args()
 
