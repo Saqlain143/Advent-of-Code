@@ -47,4 +47,4 @@ print('\n'.join(output.split('\n')[:10]), file=sys.stderr)
 
 # To get the input, run:
 
-# python3 get_input.py --day 1 > input.txt
+# python3 get_input.py --day 23 > input.txt
