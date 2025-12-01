@@ -1,4 +1,4 @@
-<img src="https://github.com/Saqlain143/Advent-of-Code/blob/main/Advent_of_Code_2024.jpg">
+<img src="https://github.com/Saqlain143/Advent-of-Code/blob/main/Advent_of_Code_2025.jpg">
 
 # Advent-of-Code🎄<img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="32">
 
