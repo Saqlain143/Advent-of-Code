@@ -80,4 +80,4 @@ except FileNotFoundError:
 
 # To get the input, run:
 
-# python3 get_input.py --day 10 > input.txt
+# python3 get_input.py --day 11 > input.txt
